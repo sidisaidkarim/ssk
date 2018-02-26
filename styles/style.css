@@ -80,9 +80,14 @@ color:#FEC50E;
     background-color:black;
     border-bottom: 0px;
   }
-  /*.skill-2{
+  .skill-2{
     display: none;
-  }*/
+  }
+
+  .flex-item{
+    max-width:150px;
+  }
+
 }
 
 .img-center{
@@ -98,8 +103,17 @@ color:#FEC50E;
   padding-top: 70px;
   padding-bottom: 20px;
 }
+.flex{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 500px;
+}
+.flex-item{
+  width:250px;
+}
 /*********animation type writing*********************/
-@media (min-width:850px){
+@media (min-width:950px){
 .type-writing-animation{
   width: 100%;
   white-space: nowrap;
@@ -131,6 +145,24 @@ color:#FEC50E;
 }
 }
 /*************************end of animation**************/
+.inline{
+   display:inline-block;
+   overflow: hidden;
+   cursor: pointer;
+   color:black;
+  
+}
+.animated{
+  width:50px;
+  white-space: nowrap;
+  animation: type 2s infinite linear;
+  margin-top:20px;
+}
+@media (min-width:768px){
+.small-screen-only{
+  display:none;
+}
+}
 /*************langage skill start***********************/
 
 .skill-2{
@@ -138,7 +170,7 @@ color:#FEC50E;
 }
 #skill-container{
 
-  max-width: 500px;
+  width: 500px;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -232,6 +264,7 @@ to { -webkit-transform:rotate(-360deg) } }
   opacity: 0.5;
   cursor: pointer;
 }
+
 footer{
   background-color: #222222;
   color: white ;

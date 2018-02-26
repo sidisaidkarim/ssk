@@ -35,7 +35,7 @@
           </div>
           <div class="collapse navbar-collapse navbar-right"  id="myNavbar">
             <ul class="nav navbar-nav">
-              <li ><a data-toggle="collapse" data-target=".navbar-collapse" href="#page-header" class=":active">Home</a></li>
+              <li ><a data-toggle="collapse" data-target=".navbar-collapse" href="#page-header" class="active">Home</a></li>
               <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#skill">A propos</a></li>
               <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#portfolio">Portfolio</a></li>
               <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">Me contacter</a></li>
@@ -96,6 +96,7 @@
             </div>
             <div class="row ">
               <h4>Technologies, Langages et Outils </h4>
+              <!--animation for desktop----------->
               <div class="col-md-12 skill-2">
 
                 <div id="skill-container">
@@ -116,9 +117,65 @@
 
                 </div>
               </div>
+              <!--and of desktop animation-------------------->
+
             </div>
 
           </div>
+        </section>
+
+        <!-- for mobil--------------->
+          <div class="container small-screen-only">
+            <div class="row">
+              <div class="flex">
+                <div class="text-center flex-item">
+                  <img src="images/git.png" class="img-responsive img-center"/>
+                  <h6>git</h6>
+                </div>
+                <div class="text-center flex-item">
+                  <img src="images/html.png" class="img-responsive img-center"/>
+                  <h6>Html</h6>
+                </div>
+                <div class="text-center flex-item">
+                  <img src="images/css.png" class="img-responsive img-center"/>
+                  <h6>CSS3</h6>
+                </div>
+                <div class="text-center flex-item">
+                  <img src="images/js.png" class="img-responsive img-center"/>
+                  <h6>Javascript ES6</h6>
+                </div>
+                <div class="text-center flex-item">
+                  <img src="images/nodejs.png" class="img-responsive img-center"/>
+                  <h6>Node JS</h6>
+                </div>
+                <div class="text-center flex-item">
+                  <img src="images/react.png" class="img-responsive img-center"/>
+                  <h6>React Js</h6>
+                </div>
+                <div class="text-center flex-item">
+                  <img src="images/vue.png" class="img-responsive img-center"/>
+                  <h6>Vue JS</h6>
+                </div>
+                <div class="text-center flex-item">
+                  <img src="images/webpack.png" class="img-responsive img-center"/>
+                  <h6>Webpack</h6>
+                </div>
+                <div class="text-center flex-item">
+                  <img src="images/java.png" class="img-responsive img-center"/>
+                  <h6>JAVA</h6>
+                </div>
+                <div class="text-center flex-item">
+                  <img src="images/boostrap.png" class="img-responsive img-center"/>
+                  <h6>Bootstrap</h6>
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+        <!--end------------------------------>
+
         </section>
         <hr />
         <section id="portfolio" >
@@ -126,7 +183,7 @@
             <h3>Projets peronnels</h3>
             <div class="row padding-top-70">
               <div class="col-md-6">
-                <img class="img-responsive img-center" src="images/boutique.jpg" />
+                <a target = "_blank" href="https://infinite-beach-51505.herokuapp.com/"><img class="img-responsive img-center" src="images/boutique.jpg" /></a>
               </div>
               <div class="col-md-6 col-sm-12">
                 <h4>Petit application react (Panier)</h4>
@@ -155,7 +212,8 @@
             <hr />
             <div class="row padding-top-70">
               <div class="col-md-6">
-                <img class="img-responsive img-center" src="images/ortho.jpg" />
+                <a target = "_blank" href="ortho/index.html">
+                  <img class="img-responsive img-center" src="images/ortho.jpg" /></a>
               </div>
               <div class="col-md-6 col-sm-12">
                 <h4>Application Vuejs pour l'apprentissage de l'orthographe  </h4>
@@ -182,7 +240,9 @@
                   eram doctrina,
               </div>
             </div>
-            <h4>Voir plus...</h4>
+            <a  href="https://www.github.com/sidisaidkarim"  target = "_blank">
+              <h3 class="inline">Voir plus</h3><h3 class="inline animated">...</h3>
+            </a>
           </div>
         </section>
         <hr />
@@ -216,7 +276,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h4>site web  conçu et développé par le  Géniale et très talentueux  </h4>
+              <h4>site web  conçu et développé par  </h4>
             </div>
           </div>
       </footer>
