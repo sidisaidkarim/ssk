@@ -89,6 +89,9 @@ color:#FEC50E;
   }
 
 }
+.border-left{
+  border-left: 2px solid #FEC50E
+}
 
 .img-center{
   margin-left:auto;

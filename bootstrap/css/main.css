@@ -1,0 +1,40 @@
+#header{
+  /*
+  background-image: url('../images/header.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;  */
+
+
+  background: linear-gradient(black, rgba(0,0,0,0.6)), url('../images/header.jpg')  0% 0%/cover;
+
+}
+.fill-viewport{
+  min-height: 100vh;
+}
+.fill-viewport-70{
+  min-height: 70vh;
+}
+.text-white-70 {
+  color: rgba(255,255,255,0.7)
+}
+.card-th{
+  width:220px;
+  height: 320px;
+
+}
+.image-cars{
+  width:200px;
+  height: 300px;
+  position: absolute;
+  cursor:pointer;
+}
+.cover{
+  transition: opacity 1s ease-in-out;
+}
+.cover:hover{
+  opacity:0;
+}
+.hiden{
+  z-index: -1;
+}
